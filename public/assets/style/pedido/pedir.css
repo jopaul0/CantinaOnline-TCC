@@ -1,0 +1,34 @@
+#container-cart{
+    width: 90%;
+    height: 500px;
+}
+#request-left-content{
+    width: 50%;
+}
+#request-right-content{
+    width: 50%;
+}
+#container-request-pay{
+    width: 90%;
+    height: 180px;
+}
+#container-request-info{
+    width: 90%;
+    min-height: 330px;
+}
+
+
+@media only screen and (max-width: 730px){
+
+    #request-content{
+        flex-direction: column;
+    }
+
+    #request-left-content{
+        width: 100%;
+    }
+
+    #request-right-content{
+        width: 100%;
+    }
+}

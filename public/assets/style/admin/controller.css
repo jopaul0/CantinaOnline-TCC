@@ -1,0 +1,116 @@
+header {
+  z-index: 1000;
+  width: 100%;
+  height: 95px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 15px 4%;
+}
+
+/* Style the sidebar */
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #ffd13b;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateX(-100%);
+  /* Hide the sidebar by default */
+  transition: transform 0.5s ease-in-out;
+  /* Add animation */
+}
+
+/* Style the button */
+.icon-custom {
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+}
+
+.icon-custom:hover {
+  color: #1b669c !important;
+  text-shadow: 0px 0px 70px #ffc400;
+  transition: all .3s;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.sidebar-close-icon {
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.sidebar-close-icon:hover {
+  transform: rotate(180deg);
+  color: #1b669c;
+  transition: all .3s;
+}
+
+.sidebar-text-custom {
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.sidebar-text-custom:hover {
+  color: #1b669c;
+  transition: all .3s;
+}
+
+.teste-hover:hover .td-produto{
+  transition: .3s all;
+  background-color: #ccc;
+}
+
+.teste-hover:hover .td-usuario{
+  transition: .3s all;
+  background-color: #ccc;
+}
+
+.teste-hover:hover .td-pedido{
+  transition: .3s all;
+  background-color: #ccc;
+}
+
+/* Show the sidebar when the button is clicked */
+#sidebar.show {
+  transform: translateX(0);
+  /* Show the sidebar */
+}
+
+#controller-nav {
+  margin-top: 100px;
+}
+
+.controller-nav {
+  margin-bottom: 5px;
+}
+
+#icon-sidebar {
+  font-size: 40px;
+}
+
+.controller-nav-link {
+  font-size: 28px;
+}
+
+.controller-nav:hover {
+  transition: all .3s;
+  background: #ffc400;
+  cursor: pointer;
+}
+
+#sidebar-footer{
+  position: absolute; /* Posiciona o rodapé em relação ao contêiner */
+    bottom: 0; /* Gruda na parte inferior do contêiner */
+    left: 0; /* Alinha à esquerda */
+    right: 0;
+}
+#rodapeAdmin{
+  position: relative;
+  top: 95px;
+}

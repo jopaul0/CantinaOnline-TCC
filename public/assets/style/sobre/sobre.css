@@ -1,0 +1,33 @@
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+#alto-sobre{
+    margin-top: 100px;
+    height: 40%;
+}
+#alto-sobre h5{
+    font-size:140%;
+}
+#alto-sobre p{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size:120%;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 715px) {
+    .img-sobre{
+        display: none;
+        width: 0% !important;
+    }
+    .text-sobre{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,55 @@
+.logo-modal{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30%; /* Metade da altura da imagem fora do modal */
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+  .swal2-title{
+    font-size: 22px;
+  }
+.swal2-html-container{
+    font-size: 18px;
+}
+
+.icon-modal-custom{
+    font-size: 18px !important
+}
+
+.swal2-success-fix{
+    top: .5em;
+    left: 1.625em;
+}
+  
+  .swal-btn-azul {
+    width: 30%;
+    padding: 16px 0px;
+    margin: 2px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #fef66e;
+    background: #312eec;
+    
+  }
+
+  .swal-btn-azul:hover{
+    cursor: pointer;
+    transition: all .3s;
+    color: #312eec;
+    background: #fff;
+  }
+
+  .swal2-modal {
+    border: 2px solid #644d00 !important;
+}
+
+.footer-modal-logar {
+    border-top: 2px solid #e2d95c !important;
+}

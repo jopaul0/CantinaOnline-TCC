@@ -1,0 +1,350 @@
+/*Elements*/
+body {
+    background-color: #fafafa;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffdf75;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #f8d563;
+}
+
+.nav-link-custom {
+    color: #ffffff;
+}
+
+.nav-link-custom:focus {
+    color: #ffffff;
+}
+
+.nav-link-custom:hover {
+    color: #1b669c;
+}
+
+/*Utilizado junto com a classe btn do bootstrap*/
+.btn-custom-blue {
+    background-color: #1b669c;
+    color: #ffffff;
+}
+
+.btn-custom-blue:hover {
+    color: #f0c94b;
+    background-color: #144c74;
+}
+
+
+/*Footer*/
+footer {
+    color: #ffffff;
+    background-color: #212529;
+}
+
+
+/*Header*/
+.scroll-action {
+    background: #ffd13b;
+}
+
+header {
+    background: linear-gradient(#0000006c, #ffffff00);
+}
+
+.menu-nav-links {
+    color: black;
+}
+
+.menu-nav-links:hover {
+    color: #ffd13b;
+    background-color: #144c74;
+}
+
+.menu-nav-categories {
+    background: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.menu-text-links {
+    color: black;
+}
+
+.menu-text-links:hover {
+    color: #ffd13b;
+    background-color: #144c74;
+}
+
+.profile-menu {
+    background: #ffffff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.search-custom input {
+    color: #ffffff;
+}
+
+.search-custom input::placeholder {
+    color: #ffffff;
+}
+
+.search-icon {
+    color: #ffffff;
+}
+
+.search-icon:hover {
+    color: #1b669c;
+}
+
+.search-suggestions-items:hover {
+    background-color: #ffd13b;
+    color: #1b669c;
+}
+
+.search-suggestions-items {
+    color: #000000;
+}
+
+.icon-user {
+    color: #ffffff;
+}
+
+.icon-user:hover {
+    color: #1b669c;;
+}
+
+.cart-icon {
+    color: #ffffff;
+}
+
+.cart-icon:hover {
+    color: #1b669c;
+}
+
+.profile-icon:hover {
+    border: 3px solid #1b669c !important;
+}
+
+@media only screen and (max-width: 900px) {
+    #mediumscreen-header {
+        background: linear-gradient(#0000006c, #ffffff00);
+    }
+
+    #mediumscreen-header.scroll-action {
+        background: #ffd13b !important;
+    }
+
+    #mediumscreen-profile-menu {
+        background: #ffffff;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+
+    #cellphone-header {
+        background: #ffd13b;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    }
+
+    #arrow-down-menu {
+        color: #ffffff;
+    }
+
+    #cellphone-nav-links {
+        background: #ffd13b;
+    }
+
+    #arrow-down-categories {
+        color: #ffffff;
+    }
+
+    .cellphone-nav-itens {
+        color: #ffffff;
+    }
+
+    .cellphone-nav-itens:hover {
+        background: #ffd13b;
+    }
+
+    .item-sublistaResponsivoDois {
+        color: #ffffff;
+    }
+
+    .item-sublistaResponsivoDois:hover {
+        color: #ffd13b;
+    }
+}
+
+/*Cardápio*/
+.img-selected {
+    border: 4px solid #fdf57b !important;
+}
+
+#categoria-title {
+    -webkit-text-stroke: 1px #b3b3b3;
+    /* azul */
+    color: #fdf57b;
+}
+
+.table-row-link:hover {
+    background-color: #f0f0f0;
+    /* cor de fundo para o hover */
+}
+
+.card-listar:hover {
+    background-color: #f0f0f0;
+    /* cor de fundo para o hover */
+}
+
+/*Carrinho*/
+#cart-icon-cart {
+    color: #fce043;
+
+    text-shadow: 0px 0px 70px #ffc400;
+
+}
+
+.product-item {
+    border-bottom: 1px solid #eee;
+}
+
+.product-item .product-quantity {
+    border: 1px solid #ccc;
+}
+
+.product-item button {
+    background-color: #dc3545;
+    /* Vermelho */
+    color: #fff;
+}
+
+.product-item button:hover {
+    background-color: #c82333;
+}
+
+.summary button {
+    background-color: #28a745;
+    /* Verde */
+    color: #fff;
+}
+
+.summary button:hover {
+    background-color: #218838;
+}
+
+/*Home*/
+
+/*Carrossel*/
+#carousel-background-indicators {
+    background-color: #00000017;
+}
+
+#carousel-arrow span {
+    color: #f0c94bb4;
+}
+
+#carousel-arrow span:hover {
+    color: #ffd13b !important;
+}
+
+#carousel-indicators label {
+    background-color: #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#carousel-indicators input[type="radio"]:checked+label {
+    background-color: #f0c94b;
+}
+
+#carousel-indicators label:hover {
+    background-color: #f0c94bb4;
+}
+
+/*Perfil*/
+
+.tab-text-profile-color:hover {
+    color: #ecc339;
+}
+
+button.active {
+    background-color: #ffd13b !important;
+}
+
+.tab-text-profile-color {
+    color: #ffd13b;
+}
+
+#img-hover {
+    color: #fff;
+    background-color: #144c74;
+}
+
+
+/*Configuração*/
+
+.checkbox-custom {
+    background-color: #ffd13b;
+}
+
+.checkbox-custom::before {
+    background-color: #dbb22b;
+}
+
+.checkbox-custom:checked::before {
+    background-color: #1b669c;
+}
+
+
+/*Sobre*/
+
+#alto-sobre h1 {
+    color: #ffffff;
+}
+
+#alto-sobre h5 {
+    color: #ffffff;
+}
+
+#alto-sobre p {
+    color: #ffffff;
+}
+
+/*Suporte*/
+
+.tituloSuporte-custom {
+    color: white;
+}
+
+.card-suportetext:hover {
+    color: #1b669c;
+}
+
+.iconsSuporte-custom {
+    color: #ffd13b;
+}
+
+.colapse-custom {
+    background-color: #ffd13b;
+}
+.colapse-custom:hover{
+    background-color: #1b669c;
+    transition: .3s all;
+}
+
+.mostrar-resposta:hover{
+    color: #ffd13b;
+  }
+
+  .collapse-custom{
+    background-color: #f0f0f0;
+  }
+
+
+.background{
+    background-color: #ffffff;
+}
+
+.edit-hover{
+    background-color: #ffd13b !important;
+}
