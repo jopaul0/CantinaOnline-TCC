@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 CantinaOnline+
 <p align="center">
       <img src="./public/assets//style/basic/image/logos/logobranco.png" alt="logo do CantinaOnline" style='height:400px'>
